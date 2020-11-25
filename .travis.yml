@@ -7,3 +7,5 @@ deploy:
   region: "$REGION"
   acl: public_read
   skip_cleanup: true
+before_install:
+- npm install -g mocha
