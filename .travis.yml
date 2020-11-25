@@ -9,3 +9,5 @@ deploy:
   skip_cleanup: true
 before_install:
 - npm install -g mocha
+after_success:
+- .travis/push.sh
