@@ -18,5 +18,8 @@
   "homepage": "https://github.com/theo-caltot/Tp-DEVOPS-CA-Caltot#readme",
   "devDependencies": {
     "should": "^13.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
